@@ -26,6 +26,7 @@ public class Event {
     @JsonProperty
     private String name;
     @JsonProperty
+    //change name
     private String createdByUser;
     private EventInformation information;
     @OneToMany
